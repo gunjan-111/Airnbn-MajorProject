@@ -1,4 +1,3 @@
-const { list } = require("postcss");
 const Listing = require("../models/listing.js");
 
 module.exports.index = async (req, res) => {
