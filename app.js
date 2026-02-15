@@ -22,7 +22,8 @@ const userRouter = require("./routes/user.js");
 const { connect } = require("http2");
 
 // const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust2";
-const dbUrl = process.env.ATLASDB_URL;
+const dbUrl = process.env.MONGO_URL;
+
 
 main().then( () => {
     console.log("connected to DB");
